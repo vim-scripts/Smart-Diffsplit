@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=809
+
+:VDiff[!] <filename>       : Open a vertial difference between the current file that restores buffer settings
+:HDiff[!] <filename>       : Open a horizontal difference between the current file that restores buffer settings
+                                                                                                                
+In both cases the ! causes the specified buffer not to be unloaded when a
+window is closed, or another window is opened.  In this case, the settings
+will be restored using the original settings of the first buffer.
+
